@@ -1,0 +1,22 @@
+{
+  "name": "mapbox-gl-marker-accessibility",
+  "version": "1.0.0",
+  "description": "Add common keyboard ddevents to mapbox markers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timluigjes/mapbox-gl-marker-accessibility.git"
+  },
+  "author": "Tim Luigjes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timluigjes/mapbox-gl-marker-accessibility/issues"
+  },
+  "homepage": "https://github.com/timluigjes/mapbox-gl-marker-accessibility#readme",
+  "dependencies": {
+    "mapbox-gl": "^0.54.0"
+  }
+}
