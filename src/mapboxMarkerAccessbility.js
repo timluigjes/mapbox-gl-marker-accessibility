@@ -1,6 +1,6 @@
 import {Marker, Popup} from 'mapbox-gl';
 
-export class Marker extends Marker {
+export class a11yMarker extends Marker {
     constructor(element, options) {
         super(element, options);
     }
@@ -30,11 +30,16 @@ export class Marker extends Marker {
     }
 }
 
-export class Popup extends Popup {
+export class a11yPopup extends Popup {
     constructor(options) {
         super(options);
     }
 
+    /**
+     * Before we add to the map
+     *
+     * @param map
+     */
     addTo(map) {
         super.addTo(map);
 
