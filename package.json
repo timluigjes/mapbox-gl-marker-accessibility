@@ -1,8 +1,8 @@
 {
   "name": "mapbox-gl-marker-accessibility",
   "version": "0.0.1",
-  "description": "Add keyboard events to mapbox markers",
-  "main": "index.js",
+  "description": "Accessibility wrapper around mapbox to include keyboard events for markers",
+  "main": "dist/a11ymapboxgl.js",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
