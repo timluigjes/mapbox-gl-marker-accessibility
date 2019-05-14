@@ -1,7 +1,7 @@
 {
   "name": "mapbox-gl-marker-accessibility",
-  "version": "1.0.0",
-  "description": "Add common keyboard ddevents to mapbox markers",
+  "version": "0.0.1",
+  "description": "Add keyboard events to mapbox markers",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
